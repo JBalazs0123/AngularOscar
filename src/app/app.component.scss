@@ -1,0 +1,26 @@
+a {
+    text-decoration: none;
+    color: gold;
+}
+
+a:hover, a:active {
+    color: khaki;
+}
+
+.navigation-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+mat-sidenav {
+    width: 250px;
+}
+
+mat-toolbar {
+    background-color: rgb(209, 72, 72);
+}
+
+#cim {
+    color: gold;
+}

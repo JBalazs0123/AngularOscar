@@ -1,0 +1,19 @@
+<span class="loading-indicator" *ngIf="loading">
+    <mat-spinner></mat-spinner>
+</span>
+
+<div class="main_component">
+<mat-card>
+    <h1>Already have an account? Log in here.</h1>
+    <mat-form-field>
+        <mat-label for="email">Email: </mat-label><input matInput type="text" [formControl]="email" />
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label for="password">Password: </mat-label><input matInput type="password" [formControl]="password" />
+    </mat-form-field>
+    <span>
+        <span><button mat-raised-button (click)="login()">Login</button></span>
+        <span><button mat-raised-button [routerLink]="'/signup'">Sign Up</button></span>
+    </span>
+</mat-card>
+</div>

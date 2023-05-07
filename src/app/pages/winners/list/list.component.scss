@@ -1,0 +1,14 @@
+
+.imageList {
+    padding: 15px;
+    background-color:rgb(241, 237, 208);
+    color: gold;
+}
+
+  .mat-option {
+    &:hover {
+      background-color: rgb(209, 72, 72);
+      color: gold;
+    }
+}
+

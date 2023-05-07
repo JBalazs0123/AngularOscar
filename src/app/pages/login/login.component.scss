@@ -1,0 +1,39 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 80%;
+}
+
+.main_component {
+    height: 100vh;
+    background-color:rgb(241, 237, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+mat-card {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    padding: 5px;
+}
+
+mat-form-field {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.mat-raised-button{
+    background-color: rgb(209, 72, 72);
+    color: gold;
+}

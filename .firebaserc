@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "webkert-2023-oscar": {
+      "hosting": {
+        "week-04": [
+          "webkert-2023-oscar"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "webkert-2023-oscar"
+  }
+}
